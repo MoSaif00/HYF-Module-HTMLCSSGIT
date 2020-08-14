@@ -1,0 +1,19 @@
+1- I creat hidden file or folder with the command   
+
+        mkdir .[FolderName]
+        touch .[FileName.txt]
+    
+    - to display the hidden files or folders 
+
+        ls -a 
+
+2- to create multiple nested directories 
+
+        mkdir -p /these/folders/are/just/for/fun
+
+3- to append the message to a file without newline break
+
+        cat appended-file.txt
+            first message
+
+        echo second message >> appended-file.txt
